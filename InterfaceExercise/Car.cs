@@ -19,6 +19,11 @@ namespace InterfaceExercise
 
         public string TaxID { get; set; }
         public string CorporateType { get; set; }
+
+        public void PrintStats()
+        {
+            Console.WriteLine($"{NumberOfDoors}");
+        }
     }
     
 }

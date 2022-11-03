@@ -14,5 +14,7 @@ namespace InterfaceExercise
         public bool IsAWD { get; set; }
 
         public string Name { get; set; }
+
+        public void PrintStats();
     }
 }

@@ -17,5 +17,10 @@ namespace InterfaceExercise
         public bool IsAWD { get; set; }
         public string TaxID { get; set; }
         public string CorporateType { get; set; }
+
+        public void PrintStats()
+        {
+            Console.WriteLine($"{SeatingCapacity}");
+        }
     }
 }

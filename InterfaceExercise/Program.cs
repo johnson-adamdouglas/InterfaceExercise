@@ -92,6 +92,7 @@ namespace InterfaceExercise
             foreach (var veh in vehicles)
             {
                 Console.WriteLine($"{veh.Name}");
+                veh.PrintStats();
             }
             
        
