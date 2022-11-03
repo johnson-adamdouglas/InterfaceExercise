@@ -82,6 +82,17 @@ namespace InterfaceExercise
                 CargoCapacity = 25, 
                 HasThirdRow = true 
             };
+
+            var vehicles = new List<IVehicle>();
+
+            vehicles.Add(car1);
+            vehicles.Add(truck1);
+            vehicles.Add(SUV1);
+
+            foreach (var veh in vehicles)
+            {
+                Console.WriteLine($"{veh.Name}");
+            }
             
        
             Console.WriteLine($"{SUV1.Name} has {SUV1.NumberOfDoors} doors and a cargo capacity of {SUV1.CargoCapacity}");
